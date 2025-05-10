@@ -1,0 +1,73 @@
+http://localhost:8082/carts/681b30283ff6205d7a00a701
+
+{
+    "cartId": "681b30283ff6205d7a00a701",
+    "userId": 1,
+    "totalPrice": 600000.0,
+    "items": [
+        {
+            "id": 8,
+            "productId": 101,
+            "name": "Samsung Watch",
+            "type": "Electronics",
+            "brand": "Samsung",
+            "price": 100000.0,
+            "quantity": 1
+        },
+        {
+            "id": 9,
+            "productId": 102,
+            "name": "MacBook",
+            "type": "Electronics",
+            "brand": "Apple",
+            "price": 150000.0,
+            "quantity": 3
+        },
+        {
+            "id": 10,
+            "productId": 103,
+            "name": "Iphone",
+            "type": "Electronics",
+            "brand": "Apple",
+            "price": 50000.0,
+            "quantity": 1
+        }
+    ]
+}
+
+http://localhost:8082/carts/user/1
+
+{
+    "cartId": "681b30283ff6205d7a00a701",
+    "userId": 1,
+    "totalPrice": 600000.0,
+    "items": [
+        {
+            "id": 8,
+            "productId": 101,
+            "name": "Samsung Watch",
+            "type": "Electronics",
+            "brand": "Samsung",
+            "price": 100000.0,
+            "quantity": 1
+        },
+        {
+            "id": 9,
+            "productId": 102,
+            "name": "MacBook",
+            "type": "Electronics",
+            "brand": "Apple",
+            "price": 150000.0,
+            "quantity": 3
+        },
+        {
+            "id": 10,
+            "productId": 103,
+            "name": "Iphone",
+            "type": "Electronics",
+            "brand": "Apple",
+            "price": 50000.0,
+            "quantity": 1
+        }
+    ]
+}

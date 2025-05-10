@@ -1,0 +1,36 @@
+http://localhost:8081/carts?userId=1
+
+{
+    "cartId": "681b30283ff6205d7a00a701",
+    "userId": 1,
+    "items": [],
+    "totalPrice": 0.0
+}
+
+
+
+addProduct
+
+http://localhost:8081/carts/681b30283ff6205d7a00a701
+
+{
+  "productId": 102,
+  "name": "Samsung Watch",
+  "type": "Electronics",
+  "brand": "Samsung",
+  "price": 100000,
+  "quantity": 1
+}
+
+
+delete
+
+http://localhost:8081/carts/681a2923eccec434dc6c3310/101
+
+update
+
+http://localhost:8081/carts/681a2923eccec434dc6c3310/update?productId=102&quantity=3
+
+checkout
+
+http://localhost:8081/carts/681b3e3a3ff6205d7a00a702/checkout

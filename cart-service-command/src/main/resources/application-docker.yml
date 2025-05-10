@@ -1,0 +1,18 @@
+server:
+  port: 8081
+
+spring:
+  application.name: CartServiceCommand
+  data:
+    mongodb:
+      uri: mongodb://mongo:27017/cart-service
+      database: cart-service
+  kafka:
+    bootstrap-servers: kafka:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+
+cart:
+  kafka:
+    topic: cart-events
